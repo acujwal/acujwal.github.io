@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top" >
     <a class="navbar-brand" href="#">Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,34 +21,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#Education">Education</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Skills</a>
+                <a class="nav-link disabled" href="#skill">Skills</a>
             </li>
         </ul>
     </div>
 </nav>
+
 <div class="container">
+
     <div class="jumbotron bg-warning row">
         <div class="col-sm-12 col-md-3"><img class="rounded-circle mt-4" id="gravatar"
                                              src="https://gravatar.com/avatar/6fb348371dedb180642692a4ed7685f5 "
                                              alt="Ujwal AC"/>
 
             <div>
-            <a href="github"></a>
-            <h1>Links</h1>
-            <div id="my-github-projects">
-                <a href="https://github.com/acujwal?tab=repositories" target="_blank">Git repositories</a>
-            </div>
+                <a href="github"></a>
+                <h1>Links</h1>
+                <div id="my-github-projects">
+                    <a href="https://github.com/acujwal?tab=repositories" target="_blank">Git repositories</a>
+                </div>
 
-            <a href="https://www.linkedin.com/in/ujwalac/" target="_blank">https://www.linkedin.com/in/ujwalac/</a>
+                <a href="https://www.linkedin.com/in/ujwalac/" target="_blank">https://www.linkedin.com/in/ujwalac/</a>
             </div>
 
         </div>
@@ -56,26 +58,20 @@
         <div>
             <h1>Ujwal AC</h1>
         </div>
-
     </div>
 
 
 
-    <div>
-        <div>
-            <h2>Contact </h2>
-            <ul class="Contact">
-                <li>E-mail: acujwal@gmail.com
-                <li>Phone no: +1 4438476673</li>
-            </ul>
-        </div>
+<!-------------------------------------------->
         <div class="row">
 
-            <div class="row">
+            <div class="row" id="experience">
                 <div class="col-sm-12 col-md-12"><h2>Professional Experience</h2></div>
             </div>
+
             <div class="row">
-                <div class="col-sm-12 col-md-2"><p> Tech Support </p>
+                <div class="col-sm-12 col-md-2">
+                    <p> Tech Support </p>
                 </div>
                 <div class="col-sm-12 col-md-8">
 
@@ -97,29 +93,39 @@
                 </div>
 
             </div>
+<!--------
 
 
+
+
+
+
+
+----------------------------------->
             <div class="row">
-                <div class="col-sm-12 col-md-2"><p> Data Analysis </p>
+
+                <div class="col-sm-12 col-md-2">
+                    <p> Data Analysis </p>
                 </div>
+
                 <div class="col-sm-12 col-md-8">
 
                     <ul>
                         <li>Working with Oracle Environment</li>
-                        <li>Understanding computerized data entry systems and using these systems to track activities
+                        <li>
+                            Understanding computerized data entry systems and using these systems to track activities
                         </li>
                         <li>Daily communication with International customers via phone and email</li>
 
                     </ul>
-                </div>
+                 </div>
                 <div class="col-sm-12 col-md-2">
                     <p>DRILL Business Services
-                        <br> Prague, Czech Republic
+                        <br>Prague, Czech Republic
                     </p>
                 </div>
-
             </div>
-
+<!--------------------------------------->
             <div class="row">
                 <div class="col-sm-12 col-md-2"><p> Account Analyst </p>
                 </div>
@@ -142,9 +148,9 @@
             </div>
 
         </div>
+<!--start of education------------------------------------------------>
 
-
-        <div class="row">
+        <div class="row" id="Education">
             <div class="col-sm-12 col-md-12"><h2>Education </h2></div>
         </div>
 
@@ -154,8 +160,8 @@
             <div class="col-sm-12 col-md-8">
 
                 <ul>
-                    <li>Master in Informatics (not completed) </li>
-                    <li>System Engineering </li>
+                    <li>Master in Informatics (not completed)</li>
+                    <li>System Engineering</li>
                     <li>2014 - 2016</li>
 
                 </ul>
@@ -175,8 +181,8 @@
             <div class="col-sm-12 col-md-8">
 
                 <ul>
-                    <li>Bachelor in Informatics </li>
-                    <li>System Engineering </li>
+                    <li>Bachelor in Informatics</li>
+                    <li>System Engineering</li>
                     <li>2010 - 2014</li>
 
                 </ul>
@@ -190,7 +196,8 @@
         </div>
 
 
-        <div class="row">
+<!--start of skills---------------------------->
+        <div class="row" id="skill">
             <div class="col-sm-12 col-md-12"><h2>Skills </h2></div>
         </div>
         <div class="row">
@@ -199,9 +206,13 @@
             <div class="col-sm-12 col-md-8">
 
                 <ul>
-                    <li>Languages: Nepalese – native, English – fluent, Hindi- fluent, Czech- Basic </li>
-                    <li>Advanced PC User: Microsoft Office, Photoshop, XHTML, CSS, C#, Lotus Notes, Oracle SFS, Project Management, SQL, Java, Spring boot, Bootstrap.</li>
-                    <li>Actively participate on volunteer work, General secretary of NRNA CZ (Non-Profitable Org) in 2013-2015</li>
+                    <li>Languages: Nepalese – native, English – fluent, Hindi- fluent, Czech- Basic</li>
+                    <li>Advanced PC User: Microsoft Office, Photoshop, XHTML, CSS, C#, Lotus Notes, Oracle SFS, Project
+                        Management, SQL, Java, Java Script, Spring boot, Bootstrap.
+                    </li>
+                    <li>Actively participate on volunteer work, General secretary of NRNA CZ (Non-Profitable Org) in
+                        2013-2015
+                    </li>
                     <li>Excellent communication, presentation and time management skills</li>
                     <li>Excellent team building skills</li>
                     <li>Eager and fast learner</li>
@@ -214,8 +225,7 @@
 
         </div>
 
-
-
+<!--training and certification----------------------------------->
         <div class="row">
             <div class="col-sm-12 col-md-12"><h2>Training & Certification </h2></div>
         </div>
@@ -233,18 +243,34 @@
                 </ul>
             </div>
             <div class="col-sm-12 col-md-2">
-                <p>Czech University of Life Science Of Prague
-                    <br>Prague, Czech Republic
+                <p>
                 </p>
             </div>
 
         </div>
 
 
+
+
+            <div class="row" >
+                <h2>Contact </h2>
+            </div>
+            <div class="row">
+                <div class ="col-sm-12 col-md-2"><p></p>
+                </div>
+                <div class="col-sm-12 col-md-10">
+                 <ul class="Contact">
+                <li>E-mail: acujwal@gmail.com
+                <li>Phone no: +1 4438476673</li>
+            </ul>
+            </div>
+        </div>
+
+
     </div>
 
 
-</div>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
