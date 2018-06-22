@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396b5766-f13e-49f8-9891-cda97e245ff2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="79" column="80" selection-start-line="79" selection-start-column="80" selection-end-line="79" selection-end-column="80" />
+            <state relative-caret-position="93">
+              <caret line="299" column="10" lean-forward="true" selection-start-line="299" selection-start-column="10" selection-end-line="299" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -154,12 +155,12 @@
       <updated>1529503073911</updated>
       <workItem from="1529503075275" duration="21243000" />
       <workItem from="1529614919154" duration="115000" />
-      <workItem from="1529630214351" duration="3089000" />
+      <workItem from="1529630214351" duration="3996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24447000" />
+    <option name="totallyTimeSpent" value="25354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -178,7 +179,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12281879" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="79" column="80" selection-start-line="79" selection-start-column="80" selection-end-line="79" selection-end-column="80" />
+        <state relative-caret-position="93">
+          <caret line="299" column="10" lean-forward="true" selection-start-line="299" selection-start-column="10" selection-end-line="299" selection-end-column="10" />
         </state>
       </provider>
     </entry>
